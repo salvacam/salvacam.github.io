@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="contact-template template">
+	<div class="info_contact">
+		<span class="title_info">Información</span>
+    	<br/>
+    	<span>Correo: <a href="mailto:salvacams@gmail.com">salvacams@gmail.com</a></span>
+    	
+    	<span id="telefono_contacto" data-last="635 55 39" alt="Pulsa para ver el telétono móvil completo">Teléfono: (+34) <span class="last">XXX XX XX</span> 21</span>
+    	
+    	<span>Ciudad: Granada (España)</span>
+	</div>
+
+	<div class="form_contact">
+		<span class="title_form">Formulario de Contacto</span>
+		<form>
+		  <div class="form-group">
+		    <label for="nombre">Nombre</label>
+		    <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+		  </div>
+		  <div class="form-group">
+		    <label for="email">Email</label>
+		    <input type="email" class="form-control" id="email" placeholder="Email">
+		  </div>
+		  <div class="form-group">
+		    <label for="mensaje">Mensaje</label>
+		    <textarea class="form-control" rows="3" id="mensaje"></textarea>
+		  </div>
+		  <button type="submit" class="btn btn-success">Enviar</button>
+		</form>
+	</div>
+</div>
+{% endblock %}
+
+    
+{% block js %}
+	<script src="js/contact.js"></script>
+{% endblock %}

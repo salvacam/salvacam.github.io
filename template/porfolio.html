@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+
+<div class="porfolio-template template">
+
+
+	{% for proyecto in proyectos %}
+	<div class="projecto">
+		<a href="{{ proyecto.url }}" alt="{{ proyecto.alt }}" target="_blank">
+			<img src="img/porfolio/{{proyecto.img}}.png" class="img-rounded" alt="{{ proyecto.alt }}"/>
+		</a>
+		<span class="title_projecto">{{ proyecto.nombre }}</span>		
+    	
+    	{% if proyecto.git %}
+    	<a class="btn btn-info git" href="{{ proyecto.git }}" alt="Código aplicación" target="_blank">
+    		<i class="fa fa-github" ></i> GitHub
+    	</a>
+		{% endif %}
+		{% if proyecto.doc %}
+		<a class="btn btn-info pdf" href="{{ proyecto.doc }}" alt="Documentación aplicación" target="_blank">
+			<i class="fa fa-file-pdf-o"></i> Documentación 
+		</a>
+		{% endif %}
+		{% if proyecto.slide %}
+    	<a class="btn btn-info slide" href="{{ proyecto.slide }}" alt="Presentación" target="_blank">
+			<i class="fa fa-file-powerpoint-o"></i> Presentación
+		</a>
+    	{% endif %}
+
+    </div>
+	{% endfor %}
+
+</div>
+
+
+{% endblock %}
