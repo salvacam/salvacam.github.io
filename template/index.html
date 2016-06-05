@@ -111,6 +111,11 @@
 		$(document).ready(function(){ 
 		   $('#alternar-respuesta-ej1').on('click',function(e){
 		   		e.preventDefault();
+		   		if ($(this).html() == 'ver') {
+		   			$(this).html('ocultar');
+		   		} else {
+		   			$(this).html('ver');
+		   		}
       			$('#respuesta-ej1').toggle('slow');
 		   });
 
