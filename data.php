@@ -2,7 +2,15 @@
 
 $trabajos = [
 	[
+		"empresa" => 'Fidesol',		
+		"empleo" => 'Desarrollador Web Front-End.',
+		"descripcion" => "Desarrollador front-end, para reingenieria de proyecto con el framework Backbone.js.",
+		"lugar" => "Granada",
+		"fecha" => "Julio 2016 – Actualmente"
+	],
+	[
 		"empresa" => 'Intelligenia',
+		"url" => 'http://salvacam.x10.mx/titulos/recomendacion.pdf',
 		"empleo" => 'Desarrollador Web Back-End y Front-End.',
 		"descripcion" => "Desarrollo para varios proyectos, como programador front-end, backend (PHP) y gestión de bases de
 datos MySQL y SQL SERVER.",
@@ -55,8 +63,20 @@ $formacion = [
 
 $cursos = [
 		[
+			'nombre'=> 'Anatomy of Backbone.js',
+			'url'=> 'https://www.codeschool.com/users/1221030',
+			'entidad'=> 'Code School',
+			'fecha'=> 'Agosto 2016'
+		],
+		[
+			'nombre'=> 'Introducción a la metodología ágil Kanban',
+			'url'=> 'http://salvacam.x10.mx/titulos/kanban.pdf',
+			'entidad'=> 'Intelligenia',
+			'fecha'=> 'Junio 2016'
+		],
+		[
 			'nombre'=> 'Writing for the Web',
-			'url'=> 'http://salvacam.tk/titulos/Subject_Certificate_22_May_2016.pdf',
+			'url'=> 'http://salvacam.x10.mx/titulos/Subject_Certificate_22_May_2016.pdf',
 			'entidad'=> 'Open2Study',
 			'fecha'=> 'Mayo 2016'
 		],
@@ -68,7 +88,7 @@ $cursos = [
 		],
 		[
 			'nombre'=> 'User Experience for the Web',
-			'url'=> 'http://salvacam.tk/titulos/Subject_Certificate_08_May_2016.pdf',
+			'url'=> 'http://salvacam.x10.mx/titulos/Subject_Certificate_08_May_2016.pdf',
 			'entidad'=> 'Open2Study',
 			'fecha'=> 'Mayo 2016'
 		],
@@ -135,14 +155,14 @@ $cursos = [
 $proyectos = [
 	[
 		'nombre' => 'Todo List con ANGULARJS',
-		'url' => 'http://salvacam.tk/todo_list/',
+		'url' => 'http://salvacam.x10.mx/todo_list/',
 		'alt' => 'Todo List con ANGULARJS',
 		'img' => 'todo_list',
 		'git' => 'https://github.com/salvacam/todo_list'
 	],
 	[
 		'nombre' => 'Reproductor en html5 de Goear.com',
-		'url' => 'http://salvacam.tk/goear/',
+		'url' => 'http://salvacam.x10.mx/goear/',
 		'alt' => 'Reproductor en html5 de Goear',
 		'img' => 'goear',
 		'git' => 'https://github.com/salvacam/goear-player'
@@ -160,80 +180,80 @@ $proyectos = [
 		'alt' => 'Aplicación en tiempo real',
 		'img' => 'localizacion',
 		'git' => 'https://github.com/salvacam/localizacionjs',
-		'doc' => 'http://salvacam.tk/pi/Doc_.pdf',
+		'doc' => 'http://salvacam.x10.mx/pi/Doc_.pdf',
 		'slide' => 'http://slides.com/salvacam/localizacionjs/',
 	],
 	[
 		'nombre' => 'Cesta de la compra de un tienda de deportes',
-		'url' => 'http://salvacam.tk/practica5',
+		'url' => 'http://salvacam.x10.mx/practica5',
 		'alt' => 'Tienda on line',
 		'img' => 'tienda',
 		'git' => 'https://github.com/salvacam/Practica-5',
-		'doc' => 'http://salvacam.tk/practica5/doc.pdf',
+		'doc' => 'http://salvacam.x10.mx/practica5/doc.pdf',
 	],
 	[
 		'nombre' => 'Web Paracaidismo',
-		'url' => 'http://salvacam.tk/web/practica9',
+		'url' => 'http://salvacam.x10.mx/web/practica9',
 		'alt' => 'Deportes extremos',
 		'img' => 'deportes',
 	],
 	[
 		'nombre' => 'Juego "Hundir la flota" en JavaScript',
-		'url' => 'http://salvacam.tk/web/js/barquitos',
+		'url' => 'http://salvacam.x10.mx/web/js/barquitos',
 		'alt' => 'Hundir la flota en JavaScript',
 		'img' => 'barquitos',
 		'git' => 'https://github.com/salvacam/Barquitos'
 	],
 	[
 		'nombre' => 'Podometro en HTML5',
-		'url' => 'http://salvacam.tk/web/js/podometro',
+		'url' => 'http://salvacam.x10.mx/web/js/podometro',
 		'alt' => 'Podometro en HTML5',
 		'img' => 'podometro',
 		'git' => 'https://github.com/salvacam/Podometro'
 	],
 	[
 		'nombre' => 'Web Restaurante Indio Yantra',
-		'url' => 'http://salvacam.tk/web/practica8',
+		'url' => 'http://salvacam.x10.mx/web/practica8',
 		'alt' => 'Restaurante',
 		'img' => 'restaurante',
 	],
 	[
 		'nombre' => 'Gestión de una carta de restaurante mediante Ajax',
-		'url' => 'http://salvacam.tk/practica4',
+		'url' => 'http://salvacam.x10.mx/practica4',
 		'alt' => 'Carta restaurante',
 		'img' => 'carta',
 		'git' => 'https://github.com/salvacam/Practica-5',
-		'doc' => 'http://salvacam.tk/practica5/doc.pdf',
+		'doc' => 'http://salvacam.x10.mx/practica5/doc.pdf',
 	],
 	[
 		'nombre' => 'Web turística sobre Egipto',
-		'url' => 'http://salvacam.tk/web/practica7',
+		'url' => 'http://salvacam.x10.mx/web/practica7',
 		'alt' => 'Egipto',
 		'img' => 'egipto',
 	],
 /*
 	[
 		'nombre' => 'Aplicación web de Gestión de usuarios',
-		'url' => 'http://salvacam.tk/practica3',
+		'url' => 'http://salvacam.x10.mx/practica3',
 		'alt' => 'Gestión de usuarios',
 		'img' => 'usuarios',
 		'git' => 'https://github.com/salvacam/Practica-3',
-		'doc' => 'http://salvacam.tk/practica3/doc.pdf',
+		'doc' => 'http://salvacam.x10.mx/practica3/doc.pdf',
 	],
 */	
 	[
 		'nombre' => 'Web empresa de transporte',
-		'url' => 'http://salvacam.tk/web/practica6',
+		'url' => 'http://salvacam.x10.mx/web/practica6',
 		'alt' => 'empresa de transporte',
 		'img' => 'transporte',
 	],
 	[
 		'nombre' => 'Aplicación web de venta de inmuebles',
-		'url' => 'http://salvacam.tk/practica2',
+		'url' => 'http://salvacam.x10.mx/practica2',
 		'alt' => 'Inmobiliaria',
 		'img' => 'inmobiliaria',
 		'git' => 'https://github.com/salvacam/Practica-2',
-		'doc' => 'http://salvacam.tk/practica2/doc.pdf',
+		'doc' => 'http://salvacam.x10.mx/practica2/doc.pdf',
 	],
 
 ];
