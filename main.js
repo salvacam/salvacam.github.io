@@ -1,11 +1,24 @@
 document.onreadystatechange = function (event) {
-  if (document.readyState === 'complete') { 
-
-    var originalTitle = document.title;
+  if (document.readyState === 'complete') {     
 
     var capitalizeFirstLetter = function(string) {
       return string.charAt(0).toUpperCase() + string.slice(1);
     }
+
+    /**
+    * Add class nameClass to tag element
+    * @param {object} element - The tag element.
+    * @param {string} nameClass - The name of class.
+    */
+    var addClass = function(element, nameClass) {
+      if (element.classList) {
+        element.classList.add(nameClass);
+      } else {
+        element.nameClass += ' ' + nameClass;
+      }
+    }
+  
+    var originalTitle = document.title;
 
     /*    Event menu button     */
     var navButton = document.querySelector('.navbar-header button');
@@ -72,19 +85,7 @@ document.onreadystatechange = function (event) {
       document.title = originalTitle + " - " + capitalizeFirstLetter(id);
     }
 
-    /**
-    * Add class nameClass to tag element
-    * @param {object} element - The tag element.
-    * @param {string} nameClass - The name of class.
-    */
-    var addClass = function(element, nameClass) {
-    	if (element.classList) {
-    		element.classList.add(nameClass);
-    	} else {
-    		element.nameClass += ' ' + nameClass;
-    	}
-    }
-  
+
     // Removed #path from href
     if (window.location.href.indexOf('#') > 0) {    
     	var path = window.location.href.substring(window.location.href.indexOf('#')+1);
