@@ -1,2 +1,3 @@
-# salvacam.tk
-<a target="_blank" href="http://salvacam.x10.mx">personal page</a>
+# salvacam.github.io
+My personal page in github
+<a href="http://salvacam.github.io" target="blank">salvacam.github.io</a>
