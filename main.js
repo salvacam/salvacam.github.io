@@ -17,6 +17,15 @@ document.onreadystatechange = function (event) {
         element.nameClass += ' ' + nameClass;
       }
     }
+
+    var removeClass = function(element, nameClass) {
+      if (el.classList) {
+        el.classList.remove(nameClass);
+      } else {
+        el.nameClass = el.nameClass.replace(new RegExp('(^|\\b)' + nameClass.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
+      }
+    }
+    
   
     var originalTitle = document.title;
 
@@ -44,14 +53,13 @@ document.onreadystatechange = function (event) {
     var alternarCursos = document.querySelector('#alternar-cursos');
     var cursos = document.querySelector('#cursos');
     alternarCursos.addEventListener('click', function(e) {
-      console.log("click");
       e.preventDefault();
       if (alternarCursos.textContent == 'ver') {
         alternarCursos.textContent ='ocultar';
         addClass(cursos, "selected");
       } else {
         alternarCursos.textContent = 'ver';
-        cursos.classList.remove('selected');
+        removeClass(cursos, "selected");
       }
     });
 
@@ -70,7 +78,8 @@ document.onreadystatechange = function (event) {
     var selectNav = function(id) {
       // Removed class selected for all element, link and div
       Array.prototype.forEach.call(elementsNav, function(el, i) {
-  		  el.classList.remove('selected');
+  		  //el.classList.remove('selected');
+        removeClass(el, "selected");
       });
 
       // Add class selected for link
@@ -100,7 +109,8 @@ document.onreadystatechange = function (event) {
     Array.prototype.forEach.call(elementsNavLink, function(el, i) {
     	el.addEventListener('click', function() {
         // Hide link when width 600px or less
-        document.getElementById("navbar").classList.remove('show');
+        //document.getElementById("navbar").classList.remove('show');
+        removeClass(document.getElementById("navbar"), "show");
         selectNav(this.id);
       });
     });
