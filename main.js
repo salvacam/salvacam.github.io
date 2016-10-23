@@ -18,7 +18,7 @@ document.onreadystatechange = function (event) {
       }
     }
 
-    var removeClass = function(element, nameClass) {
+    var removeClass = function(el, nameClass) {
       if (el.classList) {
         el.classList.remove(nameClass);
       } else {
