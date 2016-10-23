@@ -50,16 +50,16 @@ document.onreadystatechange = function (event) {
 
     
     /*    Event "cursos" button     */
-    var alternarCursos = document.querySelector('#alternar-cursos');
-    var cursos = document.querySelector('#cursos');
+    var alternarCursos = document.getElementById('alternar-cursos');
+    var formacionComplementaria = document.getElementById('formacionComplementaria');
     alternarCursos.addEventListener('click', function(e) {
       e.preventDefault();
       if (alternarCursos.textContent == 'ver') {
         alternarCursos.textContent ='ocultar';
-        addClass(cursos, "selected");
+        addClass(formacionComplementaria, "selected");
       } else {
         alternarCursos.textContent = 'ver';
-        removeClass(cursos, "selected");
+        removeClass(formacionComplementaria, "selected");
       }
     });
 
@@ -489,7 +489,7 @@ document.onreadystatechange = function (event) {
 
       el.innerHTML = template;
 
-      document.querySelector('#cursos').appendChild(el);
+      document.querySelector('#formacionComplementaria').appendChild(el);
     });
 
     proyectos.forEach(function(project) {

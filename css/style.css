@@ -577,11 +577,11 @@ ul.cursos .no-enlace {
     display: block;
   }
 
-  #cursos {
+  #formacionComplementaria {
     display: none;
   }
 
-  #cursos.selected { 
+  #formacionComplementaria.selected { 
     display: block;
   }
 
