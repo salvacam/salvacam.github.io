@@ -1,0 +1,139 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="cv-template template">
+
+
+<div class="presentacion">
+	<span class="br">¡Hola!, Soy Salvador Camacho y soy Desarrollador Web y Administrador de Sistemas. </span>
+	<span class="br">Puedes ver mi curriculum a continuación y ver algunos de los proyectos, en la sección <a href="/porfolio" title="Porfolio">Porfolio</a> que he realizado a titulo personal.</span>
+	
+	{#<span class="br">Además de los modos de contacto que ves puedes enviarme un mensaje en el <a href="/contact" title="Formulario de contacto">Formulario de Contacto</a></span>#}
+{#
+	<div class="round-row  available">
+    
+    	<span><a href="/contact" title="Disponible para contratar"><i class="fa fa-thumbs-o-up"></i> ¡Disponible para contratación!</a></span>
+	</div>
+	#}
+</div>
+
+	<div class="datos_personales">
+		<h3>Datos Personales</h3>
+		<div id="foto" class="img-circle"></div>	
+		<div class="info_datos">
+			<strong>Salvador Camacho Soto</strong>			
+			<span class="br">Viviendo en: <strong>Granada</strong>, España</span>			
+    		<span class="br">Correo: <strong><a href="mailto:salvacams@gmail.com">salvacams@gmail.com</a></strong></span>
+			
+			{# <span id="telefono_contacto" data-last="635 55 39" >Teléfono: (+34) <strong><span class="last">XXX XX XX</span> 21</strong></span> #}
+		</div>
+	</div>
+
+	<div class="formacion">
+		<br/>
+		<h3>Datos Académicos</h3>
+		<ul class="for">
+			{% for titulo in formacion %}
+			<li>
+				<span class="no-enlace top"><i class="fa fa-graduation-cap"></i> {{ titulo.nombre }}</span>	
+				<span class="br"><i class="fa fa-university"></i> {{ titulo.entidad }}</span>				
+				<span class="br"><i class="fa fa-calendar-o"></i> {{ titulo.fecha }}</span>
+				{% if titulo.matricula %}		
+				<span class="no-enlace mat"><i class="fa fa-book"></i> Matricula de honor</span>
+				{% endif %}
+		    </li>
+			{% endfor %}
+		</ul>
+
+	</div>
+
+	<div class="experiencia">
+		<h3>Experiencia Laboral</h3>
+		<ul class="for">
+			{% for trabajo in trabajos %}
+			<li>				
+				{% if trabajo.url %}
+				<a href="{{ trabajo.url }}" target="_blank">
+					<i class="fa fa-building-o"></i> {{ trabajo.empresa }}
+				</a>
+				{% else %}
+				<span class="no-enlace"><i class="fa fa-building-o"></i> {{ trabajo.empresa }}</span>
+				{% endif %}
+				<span class="br"><i class="fa fa-briefcase" ></i> {{ trabajo.empleo }}</span>				
+				<span class="br"><i class="fa fa-list-ul" ></i> {{ trabajo.descripcion }}</span>
+				<span class="br"><i class="fa fa-map-o"></i> {{ trabajo.lugar }}</span>
+				<span class="br bottom"><i class="fa fa-calendar-o"></i> {{ trabajo.fecha }}</span>
+		    </li>
+			{% endfor %}
+		</ul>
+	</div>
+
+	<h3>Formación Complementaria (<a href="#" id="alternar-respuesta-ej1">ver</a>)</h3>
+	
+ 
+	
+	<ul class="cursos" id="respuesta-ej1" style="display:none">
+		{% for curso in cursos %}	
+		<li>
+			{% if curso.url %}		
+			<a href="{{ curso.url }}" 	target="_blank">
+				<i class="fa fa-graduation-cap"></i> {{ curso.nombre }}
+			</a>
+			{% else %}
+			<span class="no-enlace"><i class="fa fa-graduation-cap"></i> {{ curso.nombre }}</span>
+			{% endif %}
+			<span class="br"><i class="fa fa-university"></i> {{ curso.entidad }}</span>
+			<span class="br"><i class="fa fa-calendar-o"></i> {{ curso.fecha }}</span>
+	    </li>
+		{% endfor %}
+	</ul>
+
+	<div class="experiencia">
+		<h3>Otros datos de interes</h3>
+		<ul>
+			<li>Disponibilidad inmediata.</li>			
+			<li>Ganas de trabajar, aprender y seguir evolucionando.</li>
+			<li>Poseo carné de conducir B y vehículo propio.</li>			
+			<li class="br bottom"></li>
+			<li>Conocimientos en:</li>
+			
+				<li class="tab">Sistemas operativos: <strong>GNU/Linux y Windows.</strong></li>
+				<li class="tab">Lenguajes de programación: <strong>JAVA, PHP, Javascript, AJAX, Node.js, jQuery, Python.</strong></li>
+				<li class="tab">Sistemas gestores de Bases de Datos: <strong>MySQL, Microsoft SQL Server, DB4O, indexedDB.</strong></li>
+				<li class="tab">Diseño web: <strong>HTML5, CSS3, Responsive design.</strong></li>
+				<li class="tab">Framework: <strong>Phonegap, Bootstrap, Angular JS, Backbone.js.</strong></li>
+				<li class="tab">Control de versiones: <strong>GIT.</strong></li>
+				<li class="tab">Gestores de contenidos: <strong>Joomla, Wordpress, Prestashop.</strong></li>
+				<li class="tab"><strong>Photoshop, Gimp.</strong></li>
+			
+		</ul>
+	</div>
+
+</div>
+
+{% endblock %}
+
+{% block js %}
+	<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script>
+		$(document).ready(function(){ 
+		   $('#alternar-respuesta-ej1').on('click',function(e){
+		   		e.preventDefault();
+		   		if ($(this).html() == 'ver') {
+		   			$(this).html('ocultar');
+		   		} else {
+		   			$(this).html('ver');
+		   		}
+      			$('#respuesta-ej1').toggle('slow');
+		   });
+
+
+			$("#telefono_contacto").on("click",function(e){		
+			  	$(this).find('span').text($(this).data('last'));
+				$(this).find('.last').css('background', 'transparent');
+				$(this).find('.last').css('cursor', 'default');
+		    });
+		});
+	</script>
+{% endblock %}
