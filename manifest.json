@@ -19,7 +19,7 @@
         "sizes": "192x192",
         "type": "image/png"
       }],
-  "start_url": "/index.html",
+  "start_url": ".",
   "display": "standalone",
   "orientation": "portrait",
   "theme_color": "#48555E",
