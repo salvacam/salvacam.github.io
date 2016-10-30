@@ -3,7 +3,7 @@ var filesToCache = [
   '/',
   'index.html',
   'main.js',
-  'styles/style.css',
+  'css/style.css',
   'fonts/AMERSN__-webfont.eot',
   'fonts/AMERSN__-webfont.svg',
   'fonts/AMERSN__-webfont.ttf',
