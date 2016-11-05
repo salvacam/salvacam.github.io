@@ -1,9 +1,9 @@
-var cacheName = 'salvacamPersonalWeb-v1';
+var cacheName = 'salvacamPersonalWeb-v1.1';
 var filesToCache = [
   '/',
   'index.html',
-  'main.js',
-  'css/style.css',
+  'js/main.min.js',
+  'css/style.min.css',
   'fonts/AMERSN__-webfont.eot',
   'fonts/AMERSN__-webfont.svg',
   'fonts/AMERSN__-webfont.ttf',

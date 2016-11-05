@@ -71,12 +71,12 @@ document.onreadystatechange = function (event) {
       }
     });
 
-		/***********************************************************/
-		/*******                 ROUTE                    **********/
-		/***********************************************************/
+    /***********************************************************/
+    /*******                 ROUTE                    **********/
+    /***********************************************************/
 
 
-		var elementsNav = document.querySelectorAll('.router');
+    var elementsNav = document.querySelectorAll('.router');
 
     /**
     * Add class 'selected' for div and link with id-content and id 
@@ -86,7 +86,7 @@ document.onreadystatechange = function (event) {
     var selectNav = function(id) {
       // Removed class selected for all element, link and div
       Array.prototype.forEach.call(elementsNav, function(el, i) {
-  		  //el.classList.remove('selected');
+        //el.classList.remove('selected');
         removeClass(el, "selected");
       });
 
@@ -105,8 +105,8 @@ document.onreadystatechange = function (event) {
 
     // Removed #path from href
     if (window.location.href.indexOf('#') > 0) {    
-    	var path = window.location.href.substring(window.location.href.indexOf('#')+1);
-    	window.location.hash = "";
+      var path = window.location.href.substring(window.location.href.indexOf('#')+1);
+      window.location.hash = "";
     }
 
     // Select div and link initial
@@ -115,7 +115,7 @@ document.onreadystatechange = function (event) {
     // Add event for click in link
     var elementsNavLink = document.querySelectorAll('a.router');
     Array.prototype.forEach.call(elementsNavLink, function(el, i) {
-    	el.addEventListener('click', function() {
+      el.addEventListener('click', function() {
         // Hide link when width 600px or less
         //document.getElementById("navbar").classList.remove('show');
         removeClass(document.getElementById("navbar"), "show");
