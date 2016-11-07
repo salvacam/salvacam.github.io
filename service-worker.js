@@ -1,9 +1,10 @@
-var cacheName = 'salvacamPersonalWeb-v1.1';
+var cacheName = 'salvacamPersonalWeb-v1.1.2';
 var filesToCache = [
   '/',
   'index.html',
   'js/main.min.js',
   'css/style.min.css',
+
   'fonts/AMERSN__-webfont.eot',
   'fonts/AMERSN__-webfont.svg',
   'fonts/AMERSN__-webfont.ttf',
@@ -12,12 +13,18 @@ var filesToCache = [
   'fonts/Bellota-Regular-webfont.svg',
   'fonts/Bellota-Regular-webfont.ttf',
   'fonts/Bellota-Regular-webfont.woff',
+  'fonts/fontawesome-webfont.woff2?v=4.7.0',
+  'fonts/fontawesome-webfont.woff?v=4.7.0',
+  'fonts/fontawesome-webfont.ttf?v=4.7.0',
+  'fonts/fontawesome-webfont.svg?v=4.7.0',
+  'fonts/fontawesome-webfont.eot?v=4.7.0',
 
   'fonts/fontawesome-webfont.eot',
   'fonts/fontawesome-webfont.svg',
   'fonts/fontawesome-webfont.ttf',
+  'fonts/fontawesome-webfont.woff',
   'fonts/fontawesome-webfont.woff2',
-
+  
   'img/foto.png',
 
   'img/porfolio/barquitos.png',
@@ -51,9 +58,11 @@ self.addEventListener('activate', function(e) {
   e.waitUntil(
     caches.keys().then(function(keyList) {
       return Promise.all(keyList.map(function(key) {
-        if (key !== cacheName) {
-          console.log('[ServiceWorker] Removing old cache', key);
-          return caches.delete(key);
+        if (key.startsWith('salvacamPersonalWeb-')){
+          if (key !== cacheName) {
+            console.log('[ServiceWorker] Removing old cache', key);
+            return caches.delete(key);  
+          }          
         }
       }));
     })
