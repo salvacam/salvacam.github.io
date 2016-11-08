@@ -1,11 +1,3 @@
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker
-   .register('service-worker.js')
-   .then(function() { 
-      console.log('Service Worker Registered'); 
-    });
-}
-
 document.onreadystatechange = function (event) {
   if (document.readyState === 'complete') {     
 
@@ -523,7 +515,13 @@ document.onreadystatechange = function (event) {
       document.querySelector('#porfolio-content').appendChild(el);
     });
 
-
+	if ('serviceWorker' in navigator) {
+	  navigator.serviceWorker
+	   .register('service-worker.js')
+	   .then(function() { 
+	      console.log('Service Worker Registered'); 
+	    });
+}
 
   }
 }

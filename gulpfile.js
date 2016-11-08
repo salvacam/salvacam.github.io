@@ -12,7 +12,7 @@ gulp.task('minifyCSS', function() {
 	gutil.log('Gulp is minify CSS!');
 
 	gulp.src('./css/*.css')
-    	.pipe(minifyCSS())
+    	.pipe(minifyCSS({keepSpecialComments : 0}))
     	.pipe(concat('style.min.css'))
     	.pipe(gulp.dest('./css/'));
 });
