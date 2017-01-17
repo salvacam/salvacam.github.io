@@ -333,7 +333,7 @@ document.onreadystatechange = function (event) {
     },
     {
       'nombre': 'Podometro en HTML5',
-      'url': 'http://salvacam.x10.mx/web/js/podometro',
+      'url': 'http://salvacam.github.io/Podometro',
       'alt': 'Podometro en HTML5',
       'img': 'podometro',
       'git': 'https://github.com/salvacam/Podometro'
