@@ -282,7 +282,7 @@ document.onreadystatechange = function (event) {
   var proyectos = [
     {
       'nombre': 'Todo List con ANGULARJS',
-      'url': 'http://salvacam.x10.mx/todo_list/',
+      'url': 'http://salvacam.github.io/todo_list',
       'alt': 'Todo List con ANGULARJS',
       'img': 'todo_list',
       'git': 'https://github.com/salvacam/todo_list'
@@ -312,7 +312,7 @@ document.onreadystatechange = function (event) {
     },
     {
       'nombre': 'Cesta de la compra de un tienda de deportes',
-      'url': 'http://salvacam.x10.mx/practica5',
+      'url': 'http://salvacam.x10.mx/practica5',                  //TODO cambio
       'alt': 'Tienda on line',
       'img': 'tienda',
       'git': 'https://github.com/salvacam/Practica-5',
@@ -320,13 +320,13 @@ document.onreadystatechange = function (event) {
     },
     {
       'nombre': 'Web Paracaidismo',
-      'url': 'http://salvacam.x10.mx/web/practica9',
+      'url': 'http://salvacam.x10.mx/web/practica9',            //TODO cambio
       'alt': 'Deportes extremos',
       'img': 'deportes',
     },
     {
       'nombre': 'Juego "Hundir la flota" en JavaScript',
-      'url': 'http://salvacam.x10.mx/web/js/barquitos',
+      'url': 'http://salvacam.github.io/Barquitos',         
       'alt': 'Hundir la flota en JavaScript',
       'img': 'barquitos',
       'git': 'https://github.com/salvacam/Barquitos'
@@ -340,13 +340,13 @@ document.onreadystatechange = function (event) {
     },
     {
       'nombre': 'Web Restaurante Indio Yantra',
-      'url': 'http://salvacam.x10.mx/web/practica8',
+      'url': 'http://salvacam.x10.mx/web/practica8',            //TODO cambio
       'alt': 'Restaurante',
       'img': 'restaurante',
     },
     {
       'nombre': 'Gestión de una carta de restaurante mediante Ajax',
-      'url': 'http://salvacam.x10.mx/practica4',
+      'url': 'http://salvacam.x10.mx/practica4',            //TODO cambio
       'alt': 'Carta restaurante',
       'img': 'carta',
       'git': 'https://github.com/salvacam/Practica-4',
@@ -354,7 +354,7 @@ document.onreadystatechange = function (event) {
     },
     {
       'nombre': 'Web turística sobre Egipto',
-      'url': 'http://salvacam.x10.mx/web/practica7',
+      'url': 'http://salvacam.x10.mx/web/practica7',            //TODO cambio
       'alt': 'Egipto',
       'img': 'egipto',
     },
