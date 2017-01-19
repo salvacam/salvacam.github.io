@@ -132,7 +132,7 @@ document.onreadystatechange = function (event) {
     },
     {
       "empresa": 'Intelligenia',
-      "url": 'http://salvacam.x10.mx/titulos/recomendacion.pdf',
+      "url": 'http://salvacam.net78.bet/titulos/recomendacion.pdf',
       "empleo": 'Desarrollador Web Back-End y Front-End.',
       "descripcion": "Desarrollo para varios proyectos, como programador front-end, backend (PHP) y gestión de bases de datos MySQL y SQL SERVER.",
       "lugar": "Granada",
@@ -196,13 +196,13 @@ document.onreadystatechange = function (event) {
       },
       {
         'nombre': 'Introducción a la metodología ágil Kanban',
-        'url': 'http://salvacam.x10.mx/titulos/kanban.pdf',
+        'url': 'http://salvacam.net78.net/titulos/kanban.pdf',
         'entidad': 'Intelligenia',
         'fecha': 'Junio 2016'
       },
       {
         'nombre': 'Writing for the Web',
-        'url': 'http://salvacam.x10.mx/titulos/Subject_Certificate_22_May_2016.pdf',
+        'url': 'http://salvacam.net78.net/titulos/Subject_Certificate_22_May_2016.pdf',
         'entidad': 'Open2Study',
         'fecha': 'Mayo 2016'
       },
@@ -214,7 +214,7 @@ document.onreadystatechange = function (event) {
       },
       {
         'nombre': 'User Experience for the Web',
-        'url': 'http://salvacam.x10.mx/titulos/Subject_Certificate_08_May_2016.pdf',
+        'url': 'http://salvacam.net78.net/titulos/Subject_Certificate_08_May_2016.pdf',
         'entidad': 'Open2Study',
         'fecha': 'Mayo 2016'
       },
@@ -232,7 +232,7 @@ document.onreadystatechange = function (event) {
       },
       {
         'nombre': 'SQL com MySQL Avanzado',
-        'url': 'http://salvacam.x10.mx/titulos/aulaMento_sql2.pdf',
+        'url': 'http://salvacam.net78.net/titulos/aulaMento_sql2.pdf',
         'entidad': 'Aula Mentor',
         'fecha': 'Diciembre 2015'
       },
@@ -289,7 +289,7 @@ document.onreadystatechange = function (event) {
     },
     {
       'nombre': 'Reproductor en html5 de Goear.com',
-      'url': 'http://salvacam.x10.mx/goear/',
+      'url': 'http://salvacam.github.io/goear/',
       'alt': 'Reproductor en html5 de Goear',
       'img': 'goear',
       'git': 'https://github.com/salvacam/goear-player'
