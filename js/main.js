@@ -132,7 +132,7 @@ document.onreadystatechange = function (event) {
     },
     {
       "empresa": 'Intelligenia',
-      "url": 'http://salvacam.net78.bet/titulos/recomendacion.pdf',
+      "url": 'http://salvacam.net78.net/titulos/recomendacion.pdf',
       "empleo": 'Desarrollador Web Back-End y Front-End.',
       "descripcion": "Desarrollo para varios proyectos, como programador front-end, backend (PHP) y gestión de bases de datos MySQL y SQL SERVER.",
       "lugar": "Granada",
