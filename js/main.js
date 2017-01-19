@@ -289,7 +289,7 @@ document.onreadystatechange = function (event) {
     },
     {
       'nombre': 'Reproductor en html5 de Goear.com',
-      'url': 'http://salvacam.github.io/goear/',
+      'url': 'http://salvacam.github.io/goear-player/',
       'alt': 'Reproductor en html5 de Goear',
       'img': 'goear',
       'git': 'https://github.com/salvacam/goear-player'
@@ -307,7 +307,7 @@ document.onreadystatechange = function (event) {
       'alt': 'Aplicación en tiempo real',
       'img': 'localizacion',
       'git': 'https://github.com/salvacam/localizacionjs',
-      'doc': 'http://salvacam.x10.mx/pi/Doc_.pdf',
+      'doc': 'http://salvacam.net78.net/doc/Doc_.pdf',
       'slide': 'http://slides.com/salvacam/localizacionjs/',
     },
     {
@@ -316,7 +316,7 @@ document.onreadystatechange = function (event) {
       'alt': 'Tienda on line',
       'img': 'tienda',
       'git': 'https://github.com/salvacam/Practica-5',
-      'doc': 'http://salvacam.x10.mx/practica5/doc.pdf',
+      'doc': 'http://salvacam.net78.net/doc/Practica5.pdf',
     },
     {
       'nombre': 'Web Paracaidismo',
@@ -349,8 +349,8 @@ document.onreadystatechange = function (event) {
       'url': 'http://salvacam.x10.mx/practica4',
       'alt': 'Carta restaurante',
       'img': 'carta',
-      'git': 'https://github.com/salvacam/Practica-5',
-      'doc': 'http://salvacam.x10.mx/practica5/doc.pdf',
+      'git': 'https://github.com/salvacam/Practica-4',
+      'doc': 'http://salvacam.net78.net/doc/Practica4.pdf',
     },
     {
       'nombre': 'Web turística sobre Egipto',
@@ -360,7 +360,7 @@ document.onreadystatechange = function (event) {
     },
     {
       'nombre': 'Web empresa de transporte',
-      'url': 'http://salvacam.x10.mx/web/practica6',
+      'url': 'https://salvacam.github.io/Web-empresa-de-transporte',
       'alt': 'empresa de transporte',
       'img': 'transporte',
     },
@@ -370,7 +370,7 @@ document.onreadystatechange = function (event) {
       'alt': 'Inmobiliaria',
       'img': 'inmobiliaria',
       'git': 'https://github.com/salvacam/Practica-2',
-      'doc': 'http://salvacam.x10.mx/practica2/doc.pdf',
+      'doc': 'http://salvacam.net78.net/doc/Practica2.pdf',
     }
   ];
 
