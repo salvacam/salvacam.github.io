@@ -183,6 +183,24 @@ document.onreadystatechange = function (event) {
 
   var cursos = [
       {
+        'nombre': 'Creando Apps. Aprende a programar aplicaciones móviles.',
+        'url': 'https://miriadax.net/files/10132/badge/2b584727-874d-4db8-89d5-3d08c1d03bf6.pdf',
+        'entidad': 'Miríada X',
+        'fecha': 'Enero 2017'
+      },
+      {
+        'nombre': 'Gestión de proyectos con metodologías Ágiles y enfoques Lean.',
+        'url': 'https://s3.amazonaws.com/pdf-certificate/10460871.pdf',
+        'entidad': 'Miríada X',
+        'fecha': 'Enero 2017'
+      },
+      {
+        'nombre': 'Desarrollo de juegos web en JavaScript y HTML5 (Phaser)',
+        'url': 'https://udemy-certificate.s3.amazonaws.com/pdf/UC-YAQ44LIV.pdf',
+        'entidad': 'Udemy',
+        'fecha': 'Enero 2017'
+      },
+      {
         'nombre': 'ECMAScript 6: Avanza tu conocimiento de JS al nivel 6',
         'url': 'https://www.udemy.com/certificate/UC-FDEQQMF5/',
         'entidad': 'Udemy',
@@ -206,7 +224,7 @@ document.onreadystatechange = function (event) {
         'entidad': 'Open2Study',
         'fecha': 'Mayo 2016'
       },
-      { 
+      {
         'nombre': 'Probar Django | Construir una Aplicación Web en Python',
         'url': 'https://www.udemy.com/certificate/UC-C3YPRKDR',
         'entidad': 'Udemy',
@@ -329,9 +347,10 @@ document.onreadystatechange = function (event) {
     },
     {
       'nombre': 'Web Paracaidismo',
-      'url': 'http://salvacam.x10.mx/web/practica9',            //TODO cambio
+      'url': 'http://salvacam.github.io/Web-Deporte-Riesgo',
       'alt': 'Deportes extremos',
       'img': 'deportes',
+      'git': 'https://github.com/salvacam/Web-Deporte-Riesgo'
     },
     {
       'nombre': 'Juego "Hundir la flota" en JavaScript',
@@ -349,13 +368,14 @@ document.onreadystatechange = function (event) {
     },
     {
       'nombre': 'Web Restaurante Indio Yantra',
-      'url': 'http://salvacam.x10.mx/web/practica8',            //TODO cambio
+      'url': 'https://salvacam.github.io/Web-Restaurante/',
       'alt': 'Restaurante',
       'img': 'restaurante',
+      'git': 'https://github.com/salvacam/Web-Restaurante',
     },
     {
       'nombre': 'Gestión de una carta de restaurante mediante Ajax',
-      'url': 'http://salvacam.x10.mx/practica4',            //TODO cambio
+      'url': 'http://salvacam.x10.mx/practica4',                      //TODO cambio
       'alt': 'Carta restaurante',
       'img': 'carta',
       'git': 'https://github.com/salvacam/Practica-4',
@@ -377,7 +397,7 @@ document.onreadystatechange = function (event) {
     },
     {
       'nombre': 'Aplicación web de venta de inmuebles',
-      'url': 'http://salvacam.x10.mx/practica2',                //TODO cambio
+      'url': 'http://salvacam.x10.mx/practica2',                        //TODO cambio
       'alt': 'Inmobiliaria',
       'img': 'inmobiliaria',
       'git': 'https://github.com/salvacam/Practica-2',
