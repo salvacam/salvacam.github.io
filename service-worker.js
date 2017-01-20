@@ -1,4 +1,4 @@
-var cacheName = 'salvacamPersonalWeb-v1.1.2';
+var cacheName = 'salvacamPersonalWeb-v1.1.3';
 
 var filesToCache = [
   '/',
@@ -42,6 +42,7 @@ var filesToCache = [
   'img/porfolio/todo_list.png',
   'img/porfolio/transporte.png',
   'img/porfolio/usuarios.png',
+  'img/porfolio/juego_html5.png',
 ];
 
 self.addEventListener('install', function(e) {

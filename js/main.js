@@ -280,9 +280,18 @@ document.onreadystatechange = function (event) {
 
 
   var proyectos = [
+
+  
+    {
+      'nombre': 'Juego HTML5',
+      'url': 'https://salvacam.github.io/game_mooc/',
+      'alt': 'Juego HTML5',
+      'img': 'juego_html5',
+      'git': 'https://github.com/salvacam/game_mooc'
+    },
     {
       'nombre': 'Todo List con ANGULARJS',
-      'url': 'http://salvacam.github.io/todo_list',
+      'url': 'http://salvacam.net78.net/todo_list',
       'alt': 'Todo List con ANGULARJS',
       'img': 'todo_list',
       'git': 'https://github.com/salvacam/todo_list'
@@ -290,7 +299,7 @@ document.onreadystatechange = function (event) {
     {
       'nombre': 'Reproductor en html5 de Goear.com',
       'url': 'http://salvacam.github.io/goear-player/',
-      'alt': 'Reproductor en html5 de Goear',
+      'alt': 'Reproductor en HTML5 de Goear',
       'img': 'goear',
       'git': 'https://github.com/salvacam/goear-player'
     },
@@ -326,7 +335,7 @@ document.onreadystatechange = function (event) {
     },
     {
       'nombre': 'Juego "Hundir la flota" en JavaScript',
-      'url': 'http://salvacam.github.io/Barquitos',         
+      'url': 'http://salvacam.github.io/Barquitos',
       'alt': 'Hundir la flota en JavaScript',
       'img': 'barquitos',
       'git': 'https://github.com/salvacam/Barquitos'
@@ -354,19 +363,21 @@ document.onreadystatechange = function (event) {
     },
     {
       'nombre': 'Web turística sobre Egipto',
-      'url': 'http://salvacam.x10.mx/web/practica7',            //TODO cambio
+      'url': 'https://salvacam.github.io/Web-turistica/',
       'alt': 'Egipto',
       'img': 'egipto',
+      'git': 'https://github.com/salvacam/Web-turistica',
     },
     {
       'nombre': 'Web empresa de transporte',
       'url': 'https://salvacam.github.io/Web-empresa-de-transporte',
       'alt': 'empresa de transporte',
       'img': 'transporte',
+      'git': 'https://github.com/salvacam/Web-empresa-de-transporte',
     },
     {
       'nombre': 'Aplicación web de venta de inmuebles',
-      'url': 'http://salvacam.x10.mx/practica2',
+      'url': 'http://salvacam.x10.mx/practica2',                //TODO cambio
       'alt': 'Inmobiliaria',
       'img': 'inmobiliaria',
       'git': 'https://github.com/salvacam/Practica-2',
