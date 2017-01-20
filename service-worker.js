@@ -1,4 +1,4 @@
-var cacheName = 'salvacamPersonalWeb-v1.1.3';
+var cacheName = 'salvacamPersonalWeb-v1.1.1';
 
 var filesToCache = [
   '/',
