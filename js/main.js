@@ -339,7 +339,7 @@ document.onreadystatechange = function (event) {
     },
     {
       'nombre': 'Cesta de la compra de un tienda de deportes',
-      'url': 'http://salvacam.x10.mx/practica5',                  //TODO cambio
+      'url': 'http://salvacam.net78.net/practica5',
       'alt': 'Tienda on line',
       'img': 'tienda',
       'git': 'https://github.com/salvacam/Practica-5',
@@ -375,7 +375,7 @@ document.onreadystatechange = function (event) {
     },
     {
       'nombre': 'Gestión de una carta de restaurante mediante Ajax',
-      'url': 'http://salvacam.x10.mx/practica4',                      //TODO cambio
+      'url': 'http://salvacam.net78.net/practica4',
       'alt': 'Carta restaurante',
       'img': 'carta',
       'git': 'https://github.com/salvacam/Practica-4',
@@ -397,7 +397,7 @@ document.onreadystatechange = function (event) {
     },
     {
       'nombre': 'Aplicación web de venta de inmuebles',
-      'url': 'http://salvacam.x10.mx/practica2',                        //TODO cambio
+      'url': 'http://salvacam.net78.net/practica2',
       'alt': 'Inmobiliaria',
       'img': 'inmobiliaria',
       'git': 'https://github.com/salvacam/Practica-2',
