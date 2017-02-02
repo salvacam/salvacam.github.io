@@ -1,4 +1,4 @@
-var cacheName = 'salvacamPersonalWeb-v1.1.11';
+var cacheName = 'salvacamPersonalWeb-v1.1.12';
 
 var filesToCache = [
   '/',
@@ -63,14 +63,25 @@ self.addEventListener('activate', function(e) {
         if (key.startsWith('salvacamPersonalWeb-')){
           if (key !== cacheName) {
             console.log('[ServiceWorker] Removing old cache', key);
-            return caches.delete(key);  
-          }          
+            return caches.delete(key);
+          }
         }
       }));
     })
   );
 });
 
+self.addEventListener('fetch', function(event) {
+  event.respondWith(caches.match(event.request).then(function(response){
+      if(response)
+        return response;
+      return fetch(event.request).then(function(response){
+        return response;
+      });
+  }));
+});
+
+/*
 self.addEventListener('fetch', function(e) {
   console.log('[ServiceWorker] Fetch', e.request.url);
   e.respondWith(
@@ -79,3 +90,4 @@ self.addEventListener('fetch', function(e) {
     })
   );
 });
+*/
