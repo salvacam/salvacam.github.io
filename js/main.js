@@ -309,7 +309,7 @@ document.onreadystatechange = function (event) {
     },
     {
       'nombre': 'Todo List con ANGULARJS',
-      'url': 'http://salvacam.net78.net/todo_list',
+      'url': 'http://salvacam.github.io/todo_list',
       'alt': 'Todo List con ANGULARJS',
       'img': 'todo_list',
       'git': 'https://github.com/salvacam/todo_list'
@@ -551,7 +551,7 @@ document.onreadystatechange = function (event) {
 
       document.querySelector('#porfolio-content').appendChild(el);
     });
-    /*
+    
   	if ('serviceWorker' in navigator) {
   	  navigator.serviceWorker
   	   .register('service-worker.js', {scope: '/'})
@@ -559,6 +559,6 @@ document.onreadystatechange = function (event) {
   	      console.log('Service Worker Registered'); 
   	    });
     }
-    */
+    
   }
 }
