@@ -1,4 +1,4 @@
-var cacheName = 'salvacamPersonalWeb-v1.1.13';
+var cacheName = 'salvacamPersonalWeb-v1.1.11';
 
 var filesToCache = [
   '/',
@@ -91,13 +91,3 @@ self.addEventListener('fetch', function(e) {
   );
 });
 */
-
-self.addEventListener('push', function(event) {
-
-  console.log('[ServiceWorker] push', event.request.url);
- 
-  event.waitUntil(
-
- 
-  );
-});
