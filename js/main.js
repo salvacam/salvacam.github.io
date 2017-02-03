@@ -298,8 +298,13 @@ document.onreadystatechange = function (event) {
 
 
   var proyectos = [
-
-  
+    {
+      'nombre': 'Horario Bus Granada',
+      'url': 'https://salvacam.github.io/horario/',
+      'alt': 'Horario Bus Granada',
+      'img': 'horario',
+      'git': 'https://github.com/salvacam/horario'
+    },
     {
       'nombre': 'Juego HTML5',
       'url': 'https://salvacam.github.io/game_mooc/',
