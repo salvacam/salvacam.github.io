@@ -1,5 +1,5 @@
 document.onreadystatechange = function (event) {
-  if (document.readyState === 'complete') {     
+  if (document.readyState === 'complete') {
 
     var capitalizeFirstLetter = function(string) {
       return string.charAt(0).toUpperCase() + string.slice(1);
@@ -25,8 +25,8 @@ document.onreadystatechange = function (event) {
         el.nameClass = el.nameClass.replace(new RegExp('(^|\\b)' + nameClass.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
       }
     }
-    
-  
+
+
     var originalTitle = document.title;
 
     /*    Event menu button     */
@@ -48,7 +48,7 @@ document.onreadystatechange = function (event) {
       }
     });
 
-    
+
     /*    Event "cursos" button     */
     var alternarCursos = document.getElementById('alternar-cursos');
     var formacionComplementaria = document.getElementById('formacionComplementaria');
@@ -71,7 +71,7 @@ document.onreadystatechange = function (event) {
     var elementsNav = document.querySelectorAll('.router');
 
     /**
-    * Add class 'selected' for div and link with id-content and id 
+    * Add class 'selected' for div and link with id-content and id
     * and remove class 'selected' rest of div and link
     * @param {string} id - Identificator of tags element.
     */
@@ -85,24 +85,24 @@ document.onreadystatechange = function (event) {
       // Add class selected for link
       var linkSelect = document.querySelector('#'+id);
       addClass(linkSelect, "selected");
-      
+
       // Add class selected for div
       var viewSelect = document.querySelector('#'+id +"-content");
       addClass(viewSelect, "selected");
 
-      //Change title of page, add the id, format capitaliza, to the original title 
+      //Change title of page, add the id, format capitaliza, to the original title
       document.title = originalTitle + " - " + capitalizeFirstLetter(id);
     }
 
 
     // Removed #path from href
-    if (window.location.href.indexOf('#') > 0) {    
+    if (window.location.href.indexOf('#') > 0) {
       var path = window.location.href.substring(window.location.href.indexOf('#')+1);
       window.location.hash = "";
     }
 
     // Select div and link initial
-    selectNav("inicio");    
+    selectNav("inicio");
 
     // Add event for click in link
     var elementsNavLink = document.querySelectorAll('a.router');
@@ -117,14 +117,14 @@ document.onreadystatechange = function (event) {
 
 
 
-  
+
     /***********************************************************/
     /*******                 DATA                     **********/
     /***********************************************************/
 
   var trabajos = [
     {
-      "empresa": 'Fidesol',   
+      "empresa": 'Fidesol',
       "empleo": 'Desarrollador Web Front-End.',
       "descripcion": "Desarrollador front-end para reingenieria de proyecto web, con uso del framework Backbone.js.",
       "lugar": "Granada",
@@ -299,6 +299,13 @@ document.onreadystatechange = function (event) {
 
   var proyectos = [
     {
+      'nombre': 'Simple Movie',
+      'url': 'https://salvacam.github.io/simpleMovie/',
+      'alt': 'Simple Movie',
+      'img': 'simpleMovie',
+      'git': 'https://github.com/salvacam/simpleMovie'
+    },
+    {
       'nombre': 'Horario Bus Granada',
       'url': 'https://salvacam.github.io/horario/',
       'alt': 'Horario Bus Granada',
@@ -423,7 +430,7 @@ document.onreadystatechange = function (event) {
       for(var key in object) {
         template = replaceText(template, key, object[key]);
       }
-      return template;      
+      return template;
     }
 
     var ifSimple = function(template, object, key) {
@@ -473,7 +480,7 @@ document.onreadystatechange = function (event) {
       for(var key in object) {
         template = ifSimple(template, object, key);
       }
-      return template;   
+      return template;
     }
 
 
@@ -482,13 +489,13 @@ document.onreadystatechange = function (event) {
     trabajos.forEach(function(trabajo) {
       var template = document.getElementById("trabajosTemplate").innerHTML;
       template = replaceTemplate(template, {
-        "empresa": trabajo.empresa,        
+        "empresa": trabajo.empresa,
         "empleo": trabajo.empleo,
         "descripcion": trabajo.descripcion,
         "lugar": trabajo.lugar,
         "fecha": trabajo.fecha
       });
-    
+
 
       template = ifComplete(template, trabajo, "url");
       template = replaceText(template, "empresa", trabajo.empresa);
@@ -508,7 +515,7 @@ document.onreadystatechange = function (event) {
         "entidad": titulo.entidad,
         "fecha": titulo.fecha
       });
-      template = ifSimple(template, titulo, "matricula");      
+      template = ifSimple(template, titulo, "matricula");
 
       var el = document.createElement('li');
 
@@ -525,7 +532,7 @@ document.onreadystatechange = function (event) {
         "fecha": titulo.fecha
       });
       template = ifComplete(template, titulo, "url");
-      template = replaceText(template, "nombre", titulo.nombre);    
+      template = replaceText(template, "nombre", titulo.nombre);
 
       var el = document.createElement('li');
 
@@ -556,14 +563,14 @@ document.onreadystatechange = function (event) {
 
       document.querySelector('#porfolio-content').appendChild(el);
     });
-    
+
   	if ('serviceWorker' in navigator) {
   	  navigator.serviceWorker
   	   .register('service-worker.js', {scope: '/'})
-  	   .then(function() { 
-  	      console.log('Service Worker Registered'); 
+  	   .then(function() {
+  	      console.log('Service Worker Registered');
   	    });
     }
-    
+
   }
 }
