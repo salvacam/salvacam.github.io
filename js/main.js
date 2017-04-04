@@ -326,6 +326,7 @@ document.onreadystatechange = function (event) {
       'img': 'todo_list',
       'git': 'https://github.com/salvacam/todo_list'
     },
+    /*
     {
       'nombre': 'Reproductor en html5 de Goear.com',
       'url': 'http://salvacam.github.io/goear-player/',
@@ -333,6 +334,7 @@ document.onreadystatechange = function (event) {
       'img': 'goear',
       'git': 'https://github.com/salvacam/goear-player'
     },
+    */
     {
       'nombre': 'Quiz en NodeJS sobre Express',
       'url': 'http://quiz-salva.herokuapp.com',
