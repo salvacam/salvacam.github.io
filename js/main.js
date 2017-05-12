@@ -348,16 +348,16 @@ document.onreadystatechange = function (event) {
       'alt': 'Aplicación en tiempo real',
       'img': 'localizacion',
       'git': 'https://github.com/salvacam/localizacionjs',
-      'doc': 'http://salvacam.net78.net/doc/Doc_.pdf',
+      'doc': 'https://github.com/salvacam/asset/doc/Doc_.pdf',
       'slide': 'http://slides.com/salvacam/localizacionjs/',
     },
     {
       'nombre': 'Cesta de la compra de un tienda de deportes',
-      'url': 'http://salvacam.net78.net/practica5',
+      'url': 'https://https://calcicolous-moonlig.000webhostapp.com/practica5',
       'alt': 'Tienda on line',
       'img': 'tienda',
       'git': 'https://github.com/salvacam/Practica-5',
-      'doc': 'http://salvacam.net78.net/doc/Practica5.pdf',
+      'doc': 'http://github.com/salvacam/asset/doc/Practica5.pdf',
     },
     {
       'nombre': 'Web Paracaidismo',
@@ -389,11 +389,11 @@ document.onreadystatechange = function (event) {
     },
     {
       'nombre': 'Gestión de una carta de restaurante mediante Ajax',
-      'url': 'http://salvacam.net78.net/practica4',
+      'url': 'https://https://calcicolous-moonlig.000webhostapp.com/practica4',
       'alt': 'Carta restaurante',
       'img': 'carta',
       'git': 'https://github.com/salvacam/Practica-4',
-      'doc': 'http://salvacam.net78.net/doc/Practica4.pdf',
+      'doc': 'https://github.com/salvacam/asset/doc/Practica4.pdf',
     },
     {
       'nombre': 'Web turística sobre Egipto',
@@ -411,11 +411,11 @@ document.onreadystatechange = function (event) {
     },
     {
       'nombre': 'Aplicación web de venta de inmuebles',
-      'url': 'http://salvacam.net78.net/practica2',
+      'url': 'https://https://calcicolous-moonlig.000webhostapp.com/practica2',
       'alt': 'Inmobiliaria',
       'img': 'inmobiliaria',
       'git': 'https://github.com/salvacam/Practica-2',
-      'doc': 'http://salvacam.net78.net/doc/Practica2.pdf',
+      'doc': 'https://github.com/salvacam/asset/doc/Practica2.pdf',
     }
   ];
 
