@@ -353,7 +353,7 @@ document.onreadystatechange = function (event) {
     },
     {
       'nombre': 'Cesta de la compra de un tienda de deportes',
-      'url': 'https://https://calcicolous-moonlig.000webhostapp.com/practica5',
+      'url': 'https://calcicolous-moonlig.000webhostapp.com/practica5',
       'alt': 'Tienda on line',
       'img': 'tienda',
       'git': 'https://github.com/salvacam/Practica-5',
@@ -389,7 +389,7 @@ document.onreadystatechange = function (event) {
     },
     {
       'nombre': 'Gestión de una carta de restaurante mediante Ajax',
-      'url': 'https://https://calcicolous-moonlig.000webhostapp.com/practica4',
+      'url': 'https://calcicolous-moonlig.000webhostapp.com/practica4',
       'alt': 'Carta restaurante',
       'img': 'carta',
       'git': 'https://github.com/salvacam/Practica-4',
@@ -411,7 +411,7 @@ document.onreadystatechange = function (event) {
     },
     {
       'nombre': 'Aplicación web de venta de inmuebles',
-      'url': 'https://https://calcicolous-moonlig.000webhostapp.com/practica2',
+      'url': 'https://calcicolous-moonlig.000webhostapp.com/practica2',
       'alt': 'Inmobiliaria',
       'img': 'inmobiliaria',
       'git': 'https://github.com/salvacam/Practica-2',
