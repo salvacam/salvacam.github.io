@@ -348,7 +348,7 @@ document.onreadystatechange = function (event) {
       'alt': 'Aplicación en tiempo real',
       'img': 'localizacion',
       'git': 'https://github.com/salvacam/localizacionjs',
-      'doc': 'https://github.com/salvacam/asset/doc/Doc_.pdf',
+      'doc': 'https://salvacam.github.io/asset/doc/Doc_.pdf',
       'slide': 'http://slides.com/salvacam/localizacionjs/',
     },
     {
@@ -357,7 +357,7 @@ document.onreadystatechange = function (event) {
       'alt': 'Tienda on line',
       'img': 'tienda',
       'git': 'https://github.com/salvacam/Practica-5',
-      'doc': 'http://github.com/salvacam/asset/doc/Practica5.pdf',
+      'doc': 'http://salvacam.github.io/asset/doc/Practica5.pdf',
     },
     {
       'nombre': 'Web Paracaidismo',
@@ -393,7 +393,7 @@ document.onreadystatechange = function (event) {
       'alt': 'Carta restaurante',
       'img': 'carta',
       'git': 'https://github.com/salvacam/Practica-4',
-      'doc': 'https://github.com/salvacam/asset/doc/Practica4.pdf',
+      'doc': 'https://salvacam.github.io/asset/doc/Practica4.pdf',
     },
     {
       'nombre': 'Web turística sobre Egipto',
@@ -415,7 +415,7 @@ document.onreadystatechange = function (event) {
       'alt': 'Inmobiliaria',
       'img': 'inmobiliaria',
       'git': 'https://github.com/salvacam/Practica-2',
-      'doc': 'https://github.com/salvacam/asset/doc/Practica2.pdf',
+      'doc': 'https://salvacam.github.io/asset/doc/Practica2.pdf',
     }
   ];
 
