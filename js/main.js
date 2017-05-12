@@ -214,13 +214,13 @@ document.onreadystatechange = function (event) {
       },
       {
         'nombre': 'Introducción a la metodología ágil Kanban',
-        'url': 'http://salvacam.net78.net/titulos/kanban.pdf',
+        'url': 'https://salvacam.github.io/asset/kanban.pdf',
         'entidad': 'Intelligenia',
         'fecha': 'Junio 2016'
       },
       {
         'nombre': 'Writing for the Web',
-        'url': 'http://salvacam.net78.net/titulos/Subject_Certificate_22_May_2016.pdf',
+        'url': 'https://salvacam.github.io/asset/Subject_Certificate_22_May_2016.pdf',
         'entidad': 'Open2Study',
         'fecha': 'Mayo 2016'
       },
@@ -232,7 +232,7 @@ document.onreadystatechange = function (event) {
       },
       {
         'nombre': 'User Experience for the Web',
-        'url': 'http://salvacam.net78.net/titulos/Subject_Certificate_08_May_2016.pdf',
+        'url': 'https://salvacam.github.io/asset/Subject_Certificate_08_May_2016.pdf',
         'entidad': 'Open2Study',
         'fecha': 'Mayo 2016'
       },
@@ -250,7 +250,7 @@ document.onreadystatechange = function (event) {
       },
       {
         'nombre': 'SQL com MySQL Avanzado',
-        'url': 'http://salvacam.net78.net/titulos/aulaMento_sql2.pdf',
+        'url': 'https://salvacam.github.io/asset/aulaMento_sql2.pdf',
         'entidad': 'Aula Mentor',
         'fecha': 'Diciembre 2015'
       },

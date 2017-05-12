@@ -1,4 +1,4 @@
-var cacheName = 'salvacamPersonalWeb-v1.1.12';
+var cacheName = 'salvacamPersonalWeb-v1.1.15';
 
 var filesToCache = [
   '/',
@@ -25,7 +25,7 @@ var filesToCache = [
   'fonts/fontawesome-webfont.ttf',
   'fonts/fontawesome-webfont.woff',
   'fonts/fontawesome-webfont.woff2',
-  
+
   'img/foto.png',
 
   'img/porfolio/barquitos.png',
