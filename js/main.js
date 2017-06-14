@@ -565,7 +565,7 @@ document.onreadystatechange = function (event) {
 
       document.querySelector('#porfolio-content').appendChild(el);
     });
-
+/*
   	if ('serviceWorker' in navigator) {
   	  navigator.serviceWorker
   	   .register('service-worker.js', {scope: '/'})
@@ -573,6 +573,6 @@ document.onreadystatechange = function (event) {
   	      console.log('Service Worker Registered');
   	    });
     }
-
+*/
   }
 }
