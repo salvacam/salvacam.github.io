@@ -1,0 +1,46 @@
+CACHE MANIFEST
+# v1 2017-06-10
+# This is another comment
+
+index.html
+js/main.min.js
+css/style.min.css
+
+fonts/AMERSN__-webfont.eot
+fonts/AMERSN__-webfont.svg
+fonts/AMERSN__-webfont.ttf
+fonts/AMERSN__-webfont.woff
+fonts/Bellota-Regular-webfont.eot
+fonts/Bellota-Regular-webfont.svg
+fonts/Bellota-Regular-webfont.ttf
+fonts/Bellota-Regular-webfont.woff
+fonts/fontawesome-webfont.woff2?v=4.7.0
+fonts/fontawesome-webfont.woff?v=4.7.0
+fonts/fontawesome-webfont.ttf?v=4.7.0
+fonts/fontawesome-webfont.svg?v=4.7.0
+fonts/fontawesome-webfont.eot?v=4.7.0
+
+fonts/fontawesome-webfont.eot
+fonts/fontawesome-webfont.svg
+fonts/fontawesome-webfont.ttf
+fonts/fontawesome-webfont.woff
+fonts/fontawesome-webfont.woff2
+
+img/foto.png
+
+img/porfolio/barquitos.png
+img/porfolio/carta.png
+img/porfolio/deportes.png
+img/porfolio/egipto.png
+img/porfolio/goear.png
+img/porfolio/inmobiliaria.png
+img/porfolio/localizacion.png
+img/porfolio/podometro.png
+img/porfolio/quiz.png
+img/porfolio/restaurante.png
+img/porfolio/tienda.png
+img/porfolio/todo_list.png
+img/porfolio/transporte.png
+img/porfolio/usuarios.png
+img/porfolio/juego_html5.png
+img/porfolio/horario.png
