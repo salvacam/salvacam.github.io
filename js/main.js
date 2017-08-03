@@ -183,6 +183,12 @@ document.onreadystatechange = function (event) {
 
   var cursos = [
       {
+        'nombre': 'LESS de cero a experto',
+        'url': 'https://udemy-certificate.s3.amazonaws.com/pdf/UC-RSLQ51YX.pdf',
+        'entidad': 'Udemy',
+        'fecha': 'Agosto 2017'
+      },
+      {
         'nombre': 'Creando Apps. Aprende a programar aplicaciones móviles.',
         'url': 'https://miriadax.net/files/10132/badge/2b584727-874d-4db8-89d5-3d08c1d03bf6.pdf',
         'entidad': 'Miríada X',
