@@ -11,7 +11,7 @@ var uglify = require('gulp-uglify');
 gulp.task('minifyCSS', function() {
 	gutil.log('Gulp is minify CSS!');
 
-	gulp.src(['!./css/style.min.css', './css/*.css'])
+	gulp.src(['!./css/style.min.css', '!./css/font-awesome.css', '!./css/bootstrap.min.css', './css/*.css'])
     	.pipe(minifyCSS({keepSpecialComments : 0}))
     	.pipe(concat('style.min.css'))
     	.pipe(gulp.dest('./css/'));
