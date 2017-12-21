@@ -183,6 +183,12 @@ document.onreadystatechange = function (event) {
 
   var cursos = [
       {
+        'nombre': 'Sass Workflow',
+        'url': 'https://www.udemy.com/certificate/UC-R9DJ5MCV/',
+        'entidad': 'Udemy',
+        'fecha': 'Diciembre 2017'
+      },
+      {
         'nombre': 'LESS de cero a experto',
         'url': 'https://udemy-certificate.s3.amazonaws.com/pdf/UC-RSLQ51YX.pdf',
         'entidad': 'Udemy',
