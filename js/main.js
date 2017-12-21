@@ -184,7 +184,7 @@ document.onreadystatechange = function (event) {
   var cursos = [
       {
         'nombre': 'Sass Workflow',
-        'url': 'https://www.udemy.com/certificate/UC-R9DJ5MCV/',
+        'url': 'https://udemy-certificate.s3.amazonaws.com/pdf/UC-R9DJ5MCV.pdf',
         'entidad': 'Udemy',
         'fecha': 'Diciembre 2017'
       },
