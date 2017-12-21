@@ -214,7 +214,7 @@ document.onreadystatechange = function (event) {
       },
       {
         'nombre': 'ECMAScript 6: Avanza tu conocimiento de JS al nivel 6',
-        'url': 'https://www.udemy.com/certificate/UC-FDEQQMF5/',
+        'url': 'https://udemy-certificate.s3.amazonaws.com/pdf/UC-FDEQQMF5.pdf',
         'entidad': 'Udemy',
         'fecha': 'Diciembre 2016'
       },
@@ -238,7 +238,7 @@ document.onreadystatechange = function (event) {
       },
       {
         'nombre': 'Probar Django | Construir una Aplicación Web en Python',
-        'url': 'https://www.udemy.com/certificate/UC-C3YPRKDR',
+        'url': 'https://udemy-certificate.s3.amazonaws.com/pdf/UC-C3YPRKDR.pdf',
         'entidad': 'Udemy',
         'fecha': 'Mayo 2016'
       },
@@ -256,7 +256,7 @@ document.onreadystatechange = function (event) {
       },
       {
         'nombre': 'AngularJS - Desde Hola Mundo hasta una Aplicación',
-        'url': 'https://www.udemy.com/certificate/UC-JLL09Q2W/',
+        'url': 'https://udemy-certificate.s3.amazonaws.com/pdf/UC-JLL09Q2W.pdf',
         'entidad': 'Udemy',
         'fecha': 'Enero 2016'
       },
@@ -268,7 +268,7 @@ document.onreadystatechange = function (event) {
       },
       {
         'nombre': 'Angular.js Desde Cero, Aprende Creando una APP Web',
-        'url': 'https://www.udemy.com/certificate/UC-B685FCU8/',
+        'url': 'https://udemy-certificate.s3.amazonaws.com/pdf/UC-B685FCU8.pdf',
         'entidad': 'Udemy',
         'fecha': 'Noviembre 2015'
       },
