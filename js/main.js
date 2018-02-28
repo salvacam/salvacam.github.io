@@ -571,7 +571,7 @@ document.onreadystatechange = function (event) {
       });
 
       var el = document.createElement('div');
-      addClass(el, "projecto");
+      addClass(el, "proyecto");
 
       el.innerHTML = template;
 
