@@ -183,6 +183,12 @@ document.onreadystatechange = function (event) {
 
   var cursos = [
       {
+        'nombre': 'Gestión de proyectos Software con Git y GitHub',
+        'url': 'https://miriadax.net/files/10132/badge/a379108c-4ab7-4df5-bd49-af265a5dbb05.pdf',
+        'entidad': 'Miríada X',
+        'fecha': 'Febrero 2018'
+      },
+      {
         'nombre': 'Sass Workflow',
         'url': 'https://udemy-certificate.s3.amazonaws.com/pdf/UC-R9DJ5MCV.pdf',
         'entidad': 'Udemy',
@@ -195,13 +201,13 @@ document.onreadystatechange = function (event) {
         'fecha': 'Agosto 2017'
       },
       {
-        'nombre': 'Creando Apps. Aprende a programar aplicaciones móviles.',
+        'nombre': 'Creando Apps. Aprende a programar aplicaciones móviles',
         'url': 'https://miriadax.net/files/10132/badge/2b584727-874d-4db8-89d5-3d08c1d03bf6.pdf',
         'entidad': 'Miríada X',
         'fecha': 'Enero 2017'
       },
       {
-        'nombre': 'Gestión de proyectos con metodologías Ágiles y enfoques Lean.',
+        'nombre': 'Gestión de proyectos con metodologías Ágiles y enfoques Lean',
         'url': 'https://s3.amazonaws.com/pdf-certificate/10460871.pdf',
         'entidad': 'Miríada X',
         'fecha': 'Enero 2017'
