@@ -2,3 +2,5 @@ php/contact.php
 vendor/
 .phpintel/
 composer.lock
+css/scss/*
+node_modules/*

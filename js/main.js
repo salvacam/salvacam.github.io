@@ -188,6 +188,7 @@ document.onreadystatechange = function (event) {
         'entidad': 'OpenWebinars',
         'fecha': 'Abril 2018'
       },    
+      /*
       {
         'nombre': 'Fundamentos de Service Workers',
         'url': 'https://openwebinars.net/cert/z14Rl',
@@ -200,6 +201,7 @@ document.onreadystatechange = function (event) {
         'entidad': 'OpenWebinars',
         'fecha': 'Abril 2018'
       },    
+      */
       {
         'nombre': 'Gestión de proyectos Software con Git y GitHub',
         'url': 'https://miriadax.net/files/10132/badge/a379108c-4ab7-4df5-bd49-af265a5dbb05.pdf',
