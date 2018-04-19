@@ -175,7 +175,7 @@
 
   <script id="trabajosTemplate" type="x-template">
       {%if url%}
-        <a href="{{url}}" target="_blank">
+        <a href="{{url}}" target="_blank" rel="noopener">
           <i class="fa fa-building-o"></i> {{empresa}}
         </a>
       {%else%}
@@ -203,7 +203,7 @@
 
   <script id="cursosTemplate" type="x-template">
       {%if url%}    
-      <a href="{{url}}" target="_blank">
+      <a href="{{url}}" target="_blank" rel="noopener">
         <i class="fa fa-graduation-cap"></i> {{nombre}}
       </a>
       {%else%}
@@ -216,22 +216,22 @@
   <!-- Template porfolio-->
 
   <script id="porfolioTemplate" type="x-template">
-      <a href="{{url}}" target="_blank">
+      <a href="{{url}}" target="_blank" rel="noopener">
         <img src="img/porfolio/{{img}}.png" class="img-rounded" alt="{{alt}}"/>
       </a>
       <span class="title_projecto">{{nombre}}</span>  
       {%if git%}
-        <a class="btn btn-info git" href="{{git}}" target="_blank">
+        <a class="btn btn-info git" href="{{git}}" target="_blank" rel="noopener">
           <i class="fa fa-github" ></i> GitHub
         </a>
       {%endif%}
       {%if doc%}
-      <a class="btn btn-info pdf" href="{{doc}}" target="_blank">
+      <a class="btn btn-info pdf" href="{{doc}}" target="_blank" rel="noopener">
         <i class="fa fa-file-pdf-o"></i> Documentación 
       </a>
       {%endif%}
       {%if slide%}
-        <a class="btn btn-info slide" href="{{slide}}" target="_blank">
+        <a class="btn btn-info slide" href="{{slide}}" target="_blank" rel="noopener">
         <i class="fa fa-file-powerpoint-o"></i> Presentación
       </a>
       {%endif%} 
