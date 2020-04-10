@@ -359,7 +359,7 @@ document.onreadystatechange = function (event) {
     },
     {
       'nombre': 'Todo List con ANGULARJS',
-      'url': 'http://salvacam.github.io/todo_list',
+      //'url': 'http://salvacam.github.io/todo_list',
       'alt': 'Todo List con ANGULARJS',
       'img': 'todo_list',
       'git': 'https://github.com/salvacam/todo_list'
@@ -375,14 +375,14 @@ document.onreadystatechange = function (event) {
     */
     {
       'nombre': 'Quiz en NodeJS sobre Express',
-      'url': 'http://quiz-salva.herokuapp.com',
+      //'url': 'http://quiz-salva.herokuapp.com',
       'alt': 'Quiz en NodeJS',
       'img': 'quiz',
       'git': 'https://github.com/salvacam/quiz'
     },
     {
       'nombre': 'Aplicación web en tiempo real',
-      'url': 'http://localizacionjs.herokuapp.com',
+      //'url': 'http://localizacionjs.herokuapp.com',
       'alt': 'Aplicación en tiempo real',
       'img': 'localizacion',
       'git': 'https://github.com/salvacam/localizacionjs',
@@ -591,6 +591,8 @@ document.onreadystatechange = function (event) {
       });
 
       template = ifSimpleTemplate(template, {
+        "url": project.url,
+        "urlEnd": project.url,
         "git": project.git,
         "doc": project.doc,
         "slide": project.slide
