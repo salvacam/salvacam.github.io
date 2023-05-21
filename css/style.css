@@ -368,6 +368,13 @@ span.navbar-brand:hover,
 	transition: all 0.5s;
 }
 
+.proyecto img {
+	max-height: 155px;
+	width: auto;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
 .proyecto>a img:hover {
     transform: scale(1.025);
 }
