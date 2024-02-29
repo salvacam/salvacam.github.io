@@ -132,7 +132,7 @@ document.onreadystatechange = function (event) {
     },
     {
       "empresa": 'Intelligenia',
-      "url": 'https://salvacam.github.io/asset/recomendacion.pdf',
+      //"url": 'https://salvacam.github.io/asset/recomendacion.pdf',
       "empleo": 'Desarrollador Web Back-End y Front-End.',
       "descripcion": "Desarrollo para varios proyectos, como programador front-end, backend (PHP) y gestión de bases de datos MySQL y SQL SERVER.",
       "lugar": "Granada",
@@ -386,7 +386,7 @@ document.onreadystatechange = function (event) {
       'alt': 'Aplicación en tiempo real',
       'img': 'localizacion',
       'git': 'https://github.com/salvacam/localizacionjs',
-      'doc': 'https://salvacam.github.io/asset/doc/Doc_.pdf',
+      //'doc': 'https://salvacam.github.io/asset/doc/Doc_.pdf',
       'slide': 'http://slides.com/salvacam/localizacionjs/',
     },
     {
@@ -395,7 +395,7 @@ document.onreadystatechange = function (event) {
       'alt': 'Tienda on line',
       'img': 'tienda',
       'git': 'https://github.com/salvacam/Practica-5',
-      'doc': 'http://salvacam.github.io/asset/doc/Practica5.pdf',
+      //'doc': 'http://salvacam.github.io/asset/doc/Practica5.pdf',
     },
     {
       'nombre': 'Web Paracaidismo',
@@ -431,7 +431,7 @@ document.onreadystatechange = function (event) {
       'alt': 'Carta restaurante',
       'img': 'carta',
       'git': 'https://github.com/salvacam/Practica-4',
-      'doc': 'https://salvacam.github.io/asset/doc/Practica4.pdf',
+      //'doc': 'https://salvacam.github.io/asset/doc/Practica4.pdf',
     },
     {
       'nombre': 'Web turística sobre Egipto',
@@ -453,7 +453,7 @@ document.onreadystatechange = function (event) {
       'alt': 'Inmobiliaria',
       'img': 'inmobiliaria',
       'git': 'https://github.com/salvacam/Practica-2',
-      'doc': 'https://salvacam.github.io/asset/doc/Practica2.pdf',
+      //'doc': 'https://salvacam.github.io/asset/doc/Practica2.pdf',
     }
   ];
 
